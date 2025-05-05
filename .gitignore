@@ -4,3 +4,4 @@ general_info.txt
 chroma_db/
 __pycache__/
 crawl4AI-agent-v2.code-workspace
+.DS_Store
