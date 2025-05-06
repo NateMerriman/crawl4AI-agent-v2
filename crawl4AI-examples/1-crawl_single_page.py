@@ -1,12 +1,14 @@
 import asyncio
 from crawl4ai import AsyncWebCrawler, BrowserConfig
 
+
 async def main():
     async with AsyncWebCrawler() as crawler:
         result = await crawler.arun(
-            url="https://ai.pydantic.dev/",
+            url="https://www.yoururl.com",
         )
         print(result.markdown)
+
 
 if __name__ == "__main__":
     asyncio.run(main())
